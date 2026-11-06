@@ -10,7 +10,7 @@ Esta spec descreve como reimplementar a **listagem paginada de chamados** do bac
 
 > ⚠️ **As duas rotas são obrigatórias.** A tarefa só está concluída quando `GET /api/tickets` **e** `GET /api/agent/tickets` estão registradas em `routes/index.js`. Entregar uma só rota é implementação **incompleta**: o frontend ou o agente do watsonx Orchestrate (ferramenta `listarChamados`) ficaria sem listagem.
 
-## Prompt sugerido para o Bob
+## Prompt sugerido para o Claude
 
 > Leia `specs/002-listar-chamados.md` e faça as 3 entregas da tabela inicial: a função `listTickets` (exportada) e **as duas rotas**, `GET /tickets` (com `requireAuth`) e `GET /agent/tickets` (com `requireOrchestrateKey`). Antes de editar, verifique o estado atual dos arquivos conforme a seção 2.1, para não duplicar nada. Altere **somente** os trechos indicados. Não modifique as outras funções, os helpers de `lib/validation.js` nem as outras rotas. Não é necessário executar testes: ao final, apenas confira o checklist da seção 7.
 

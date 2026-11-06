@@ -2,7 +2,7 @@
 
 Este documento descreve como criar o arquivo **`openapi.yaml` na raiz do repositório**. O arquivo é importado no **IBM watsonx Orchestrate** para gerar as ferramentas (tools) que o agente usa para abrir, consultar, listar, atualizar e comentar chamados da seguradora.
 
-## Prompt sugerido para o Bob
+## Prompt sugerido para o Claude
 
 > Leia `specs/001-openapi-orchestrate.md` e crie o arquivo `openapi.yaml` na raiz do repositório (mesmo nível de `package.json` e `vercel.json`) exatamente conforme a especificação. Não crie o arquivo em outra pasta nem com outro nome. Não inclua rotas, campos ou respostas que não estejam listados. Não é necessário executar testes ou validações.
 
